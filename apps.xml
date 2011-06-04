@@ -9,7 +9,7 @@
 			<imgc>homec.jpg</imgc>
 			<top>30px</top>	
 		</icon>		
-		<box>
+		<box id="homeBox">
 			<width>400px</width>
 			<height>400px</height>
 			<left>300px</left>
@@ -26,7 +26,7 @@
 			<imgc>lolc.png</imgc>
 			<top>50px</top>		
 		</icon>		
-		<box>
+		<box id="lolBox">
 			<width>400px</width>
 			<height>400px</height>
 			<left>310px</left>
