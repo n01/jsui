@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<apps>
+
+	<app>
+		<icon>
+			<name>home</name>
+			<img>home.jpg</img>
+			<imgc>homec.jpg</imgc>
+			<top>30px</top>	
+		</icon>		
+		<box>
+			<width>400px</width>
+			<height>400px</height>
+			<left>300px</left>
+			<bottom>400px</bottom>
+			<bgcolor>red</bgcolor>
+			<url param="lol=homepage">home.php</url>
+		</box>
+	</app>
+	
+	<app>
+		<icon>
+			<name>lol</name>
+			<img>lol.png</img>
+			<imgc>lolc.png</imgc>
+			<top>50px</top>		
+		</icon>		
+		<box>
+			<width>400px</width>
+			<height>400px</height>
+			<left>310px</left>
+			<bottom>390px</bottom>
+			<bgcolor>lightgreen</bgcolor>
+			<url param="lol=example">home.php</url>
+		</box>
+	</app>
+	
+</apps>
