@@ -2,16 +2,6 @@ powered by nightmare01, with jQuery and ganja power.
 
 Questa è una versione preAlpha, può fare ben poco.
 
-è Facile da usare, il template da utilizzare per creare una nuova finestra, con relativa icona è:
-var nomeIcona = new icon({
-	boxObj: new Box({ //oggetto Box(finestra) può anche essere istanziato fuori dall'istanza di icon
-			bgcolor: "red", //colore background finestra
-			url: "home.php", //script php che verrà caricato all'interno della finestra
-			param: "lol=homepage" //parametri da passare allo script (per ora è impostato su GET)
-	}),
-	image: "img/home.jpg", //immagine icona normale
-	imagec: "img/homec.jpg", //immagine icona per la chiusura
-	top: 20 //distanza dalla margine superiore dello schermo
-});
+è Facile da usare, per aggiungere un'altra icona con relativa finestra, basta editare il file apps.xml aggiungendo un nuovo <app> seguendo lo schema riportato nelle icona già inserite nel file. è molto intuitivo :)
 
-nomeIcona._show(); //chiamata al metodo show() che farà effettivamente apparire l'icona cliccabile
+una nota: nel campo url, bisogna inserire l'url dello script php che caricherà la finestra al click sull'icona! e nel campo param, bisogna inserire i parametri da passare allo script, per ora lavora in GET.
