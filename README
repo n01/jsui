@@ -2,6 +2,8 @@ powered by nightmare01, with jQuery and ganja power.
 
 Questa è una versione preAlpha, può fare ben poco.
 
-è Facile da usare, per aggiungere un'altra icona con relativa finestra, basta editare il file apps.xml aggiungendo un nuovo <app> seguendo lo schema riportato nelle icona già inserite nel file. è molto intuitivo :)
+è Facile da usare, per aggiungere un'altra icona con relativa finestra, basta editare il file apps.xml
+ aggiungendo un nuovo <app> seguendo lo schema riportato nelle icona già inserite nel file. è molto intuitivo :)
 
-una nota: nel campo url, bisogna inserire l'url dello script php che caricherà la finestra al click sull'icona! e nel campo param, bisogna inserire i parametri da passare allo script, per ora lavora in GET.
+una nota: nel campo url, bisogna inserire l'url dello script php che caricherà la finestra al click sull'icona! 
+e nel campo param, bisogna inserire i parametri da passare allo script, per ora lavora in GET.
