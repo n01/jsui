@@ -149,6 +149,7 @@ function appsParser(xml) {
 		var box = $(this).find("box");
 		icons[i] = new Icon({
 			boxObj: new Box({
+						id: box.attr("id"),
 						left: box.find("left").text(),
 						bottom: box.find("bottom").text(),
 						bgcolor: box.find("bgcolor").text(),
